@@ -5,7 +5,7 @@ public enum SocialMedia: String {
    case github = "GitHub"
    case instagram = "Instagram"
    case linkedin = "LinkedIn"
-   case mastodon = "Mastodon"
+   case mastodonDotSocial = "Mastodon"
    case pinterest = "Pinterest"
    case reddit = "Reddit"
    case threads = "Threads"
@@ -19,7 +19,7 @@ public enum SocialMedia: String {
       case .github: "cat.circle.fill"
       case .instagram: "camera.circle"
       case .linkedin: "point.topleft.down.to.point.bottomright.curvepath"
-      case .mastodon: "globe"
+      case .mastodonDotSocial: "globe"
       case .pinterest: "pin.circle"
       case .reddit: "antenna.radiowaves.left.and.right.circle"
       case .threads: "at.circle.fill"
@@ -31,17 +31,17 @@ public enum SocialMedia: String {
 
    func url(username: String) -> URL {
       switch self {
-      case .facebook: return URL(string: "https://facebook.com/\(username)")!
-      case .github: return URL(string: "https://github.com/\(username)")!
-      case .instagram: return URL(string: "https://instagram.com/\(username)")!
-      case .linkedin: return URL(string: "https://www.linkedin.com/in/\(username)")!
-      case .mastodon: return URL(string: "https://mastodon.social/@\(username)")!
-      case .pinterest: return URL(string: "https://pinterest.com/\(username)")!
-      case .reddit: return URL(string: "https://reddit.com/user/\(username)")!
-      case .threads: return URL(string: "https://www.threads.net/@\(username)")!
-      case .tiktok: return URL(string: "https://www.tiktok.com/@\(username)")!
-      case .twitter: return URL(string: "https://twitter.com/\(username)")!
-      case .youtube: return URL(string: "https://www.youtube.com/\(username)")!
+      case .facebook: URL(string: "https://facebook.com/\(username)")!
+      case .github: URL(string: "https://github.com/\(username)")!
+      case .instagram: URL(string: "https://instagram.com/\(username)")!
+      case .linkedin: URL(string: "https://www.linkedin.com/in/\(username)")!
+      case .mastodonDotSocial: URL(string: "https://mastodon.social/@\(username)")!
+      case .pinterest: URL(string: "https://pinterest.com/\(username)")!
+      case .reddit: URL(string: "https://reddit.com/user/\(username)")!
+      case .threads: URL(string: "https://www.threads.net/@\(username)")!
+      case .tiktok: URL(string: "https://www.tiktok.com/@\(username)")!
+      case .twitter: URL(string: "https://twitter.com/\(username)")!
+      case .youtube: URL(string: "https://www.youtube.com/\(username)")!
       }
    }
 }

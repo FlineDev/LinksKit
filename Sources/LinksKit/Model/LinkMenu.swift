@@ -1,6 +1,7 @@
 import Foundation
 
-public struct LinkMenu {
+public struct LinkMenu: Identifiable {
+   public let id: UUID = UUID()
    let title: String
    let systemImage: String
 

@@ -1,6 +1,6 @@
 import Foundation
 
-public final class LinksKit {
+public actor LinksKit {
    static var publisherToken: String = ""
    static var linkSections: [LinkSection] = []
 
