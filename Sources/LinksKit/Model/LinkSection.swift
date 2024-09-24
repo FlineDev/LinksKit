@@ -24,15 +24,25 @@ public struct LinkSection: Identifiable {
 }
 
 extension LinkSection {
-   public static func helpLinks(appID: String, faqURL: URL, supportEmail: String) -> Self {
-      LinkSection(
-         title: String(localized: "Help", bundle: .module),
-         entries: [
-            .link(.rateTheApp(id: appID)),
-            .link(.frequentlyAskedQuestions(url: faqURL)),
-            .link(.contactSupport(email: supportEmail)),
-         ]
-      )
+   public static func helpLinks(appID: String, faqURL: URL? = nil, supportEmail: String) -> Self {
+      if let faqURL {
+         LinkSection(
+            title: String(localized: "Help", bundle: .module),
+            entries: [
+               .link(.rateTheApp(id: appID)),
+               .link(.frequentlyAskedQuestions(url: faqURL)),
+               .link(.contactSupport(email: supportEmail)),
+            ]
+         )
+      } else {
+         LinkSection(
+            title: String(localized: "Help", bundle: .module),
+            entries: [
+               .link(.rateTheApp(id: appID)),
+               .link(.contactSupport(email: supportEmail)),
+            ]
+         )
+      }
    }
 
    public static func appSocialLinks(

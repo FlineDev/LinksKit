@@ -1,10 +1,34 @@
-<img src="https://raw.githubusercontent.com/FlineDev/LinksKit/main/Images/HelpMenu.png" height="256" />
+
 
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FFlineDev%2FLinksKit%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/FlineDev/LinksKit)
 
 # LinksKit
 
 TODO
+
+## Usage
+
+TODO (minimum variant without FAQ or app links, maximum variant with FAQ, own apps, friends apps)
+
+For all platfroms except macOS, it's common to have a settings screen with a `Form` or `List`. Just add `LinksView()` inside it like so:
+
+```swift
+TODO
+```
+
+The result should look like this:
+
+<img src="https://raw.githubusercontent.com/FlineDev/LinksKit/main/Images/PhoneSettings.jpeg" />
+
+When targeting macOS, just add `LinksView()` to your commands menu like so:
+
+```swift
+TODO
+```
+
+The result will look something like this:
+
+<img src="https://raw.githubusercontent.com/FlineDev/LinksKit/main/Images/MacHelpMenu.jpeg" />
 
 
 ## Showcase

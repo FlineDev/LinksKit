@@ -45,7 +45,7 @@ extension Link {
 
    public static func followUsOn(socialPlatform: SocialPlatform, handle: String) -> Self {
       Link(
-         title: String(localized: "Follow us on \(socialPlatform.rawValue)"),
+         title: String(localized: "Follow us on \(socialPlatform.description)"),
          systemImage: socialPlatform.systemImage,
          url: socialPlatform.url(handle: handle)
       )
@@ -53,37 +53,21 @@ extension Link {
 
    public static func developerOn(socialPlatform: SocialPlatform, handle: String) -> Self {
       Link(
-         title: String(localized: "Developer on \(socialPlatform.rawValue)"),
+         title: String(localized: "Developer on \(socialPlatform.description)"),
          systemImage: socialPlatform.systemImage,
          url: socialPlatform.url(handle: handle)
-      )
-   }
-
-   public static func developerOnMastodon(instance: String, handle: String) -> Self {
-      Link(
-         title: String(localized: "Developer on \(SocialPlatform.mastodonDotSocial.rawValue)"),
-         systemImage: SocialPlatform.mastodonDotSocial.systemImage,
-         url: URL(string: "https://\(instance)/@\(handle)")!
       )
    }
 
    public static func appOn(socialPlatform: SocialPlatform, handle: String) -> Self {
       Link(
-         title: String(localized: "App on \(socialPlatform.rawValue)"),
+         title: String(localized: "App on \(socialPlatform.description)"),
          systemImage: socialPlatform.systemImage,
          url: socialPlatform.url(handle: handle)
       )
    }
 
-   public static func appOnMastodon(instance: String, handle: String) -> Self {
-      Link(
-         title: String(localized: "App on \(SocialPlatform.mastodonDotSocial.rawValue)"),
-         systemImage: SocialPlatform.mastodonDotSocial.systemImage,
-         url: URL(string: "https://\(instance)/@\(handle)")!
-      )
-   }
-
-   public static func app(
+   public static func ownApp(
       id: String,
       name: String,
       systemImage: String,
@@ -94,5 +78,28 @@ extension Link {
          systemImage: systemImage,
          url: URL(string: "https://apps.apple.com/app/id\(id)?pt=\(LinksKit.publisherToken)&ct=\(campaignToken)&mt=8")!
       )
+   }
+
+   public static func friendsApp(
+      id: String,
+      name: String,
+      systemImage: String,
+      publisherToken: String? = nil,
+      campaignToken: String = Bundle.main.bundleIdentifier ?? "com.default.identifier"
+   ) -> Self {
+      if let publisherToken {
+         Link(
+            title: name,
+            systemImage: systemImage,
+            url: URL(string: "https://apps.apple.com/app/id\(id)?pt=\(publisherToken)&ct=\(campaignToken)&mt=8")!
+         )
+      } else {
+         Link(
+            title: name,
+            systemImage: systemImage,
+            url: URL(string: "https://apps.apple.com/app/id\(id)?ct=\(campaignToken)&mt=8")!
+         )
+      }
+
    }
 }
