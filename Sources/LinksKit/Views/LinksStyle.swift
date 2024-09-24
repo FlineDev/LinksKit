@@ -1,3 +1,8 @@
 import SwiftUI
 
-// TODO: write a style type with variants `group` and `section` (group for CommandGroup and section for List/Form etc.)
+public enum LinksStyle {
+   /// For use inside `CommandGroup` views on macOS.
+   case groups
+   /// For use inside `Form` or `List` views inside settings views.
+   case sections
+}

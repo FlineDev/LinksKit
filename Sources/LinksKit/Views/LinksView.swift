@@ -1,8 +1,14 @@
 import SwiftUI
 
-struct LinksView: View {
-   var body: some View {
-      LinkSectionsView(linkSections: LinksKit.linkSections)
+public struct LinksView: View {
+   let style: LinksStyle
+
+   public init(style: LinksStyle) {
+      self.style = style
+   }
+
+   public var body: some View {
+      LinkSectionsView(linkSections: LinksKit.linkSections, style: self.style)
    }
 }
 
@@ -54,7 +60,7 @@ struct LinksView: View {
 
          let friendsApps = LinkSection(entries: [
             .link(Link(
-               title: "NFC.cool", systemImage: "tag",
+               title: "NFC.cool Tool: Tags Reader", systemImage: "tag",
                url: URL(string: "https://apps.apple.com/app/apple-store/id1249686798?pt=106913804&ct=dev.fline.FreemiumKit&mt=8")!
             )),
             .link(Link(
@@ -82,7 +88,7 @@ struct LinksView: View {
 
       var body: some View {
          List {
-            LinksView()
+            LinksView(style: .sections)
          }
       }
    }
