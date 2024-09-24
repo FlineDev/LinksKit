@@ -1,6 +1,6 @@
 import Foundation
 
-public enum SocialMedia: String {
+public enum SocialPlatform: String, Hashable {
    case facebook = "Facebook"
    case github = "GitHub"
    case instagram = "Instagram"
@@ -29,19 +29,19 @@ public enum SocialMedia: String {
       }
    }
 
-   func url(username: String) -> URL {
+   func url(handle: String) -> URL {
       switch self {
-      case .facebook: URL(string: "https://facebook.com/\(username)")!
-      case .github: URL(string: "https://github.com/\(username)")!
-      case .instagram: URL(string: "https://instagram.com/\(username)")!
-      case .linkedin: URL(string: "https://www.linkedin.com/in/\(username)")!
-      case .mastodonDotSocial: URL(string: "https://mastodon.social/@\(username)")!
-      case .pinterest: URL(string: "https://pinterest.com/\(username)")!
-      case .reddit: URL(string: "https://reddit.com/user/\(username)")!
-      case .threads: URL(string: "https://www.threads.net/@\(username)")!
-      case .tiktok: URL(string: "https://www.tiktok.com/@\(username)")!
-      case .twitter: URL(string: "https://twitter.com/\(username)")!
-      case .youtube: URL(string: "https://www.youtube.com/\(username)")!
+      case .facebook: URL(string: "https://facebook.com/\(handle)")!
+      case .github: URL(string: "https://github.com/\(handle)")!
+      case .instagram: URL(string: "https://instagram.com/\(handle)")!
+      case .linkedin: URL(string: "https://www.linkedin.com/in/\(handle)")!
+      case .mastodonDotSocial: URL(string: "https://mastodon.social/@\(handle)")!
+      case .pinterest: URL(string: "https://pinterest.com/\(handle)")!
+      case .reddit: URL(string: "https://reddit.com/user/\(handle)")!
+      case .threads: URL(string: "https://www.threads.net/@\(handle)")!
+      case .tiktok: URL(string: "https://www.tiktok.com/@\(handle)")!
+      case .twitter: URL(string: "https://twitter.com/\(handle)")!
+      case .youtube: URL(string: "https://www.youtube.com/\(handle)")!
       }
    }
 }

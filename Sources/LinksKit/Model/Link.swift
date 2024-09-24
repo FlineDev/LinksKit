@@ -27,8 +27,8 @@ extension Link {
       Link(title: String(localized: "Frequently Asked Questions (FAQ)", bundle: .module), systemImage: "questionmark.bubble", url: url)
    }
 
-   public static func contactDeveloper(email: String) -> Self {
-      Link(title: String(localized: "Contact Developer", bundle: .module), systemImage: "envelope", url: URL(string: "mailto:\(email)")!)
+   public static func contactSupport(email: String) -> Self {
+      Link(title: String(localized: "Contact Support", bundle: .module), systemImage: "envelope", url: URL(string: "mailto:\(email)")!)
    }
 
    public static func privacyPolicy(url: URL) -> Self {
@@ -43,43 +43,43 @@ extension Link {
       Link(title: String(localized: "Terms and Conditions", bundle: .module), systemImage: "text.book.closed", url: url)
    }
 
-   public static func followUsOn(socialMedia: SocialMedia, username: String) -> Self {
+   public static func followUsOn(socialPlatform: SocialPlatform, handle: String) -> Self {
       Link(
-         title: String(localized: "Follow us on \(socialMedia.rawValue)"),
-         systemImage: socialMedia.systemImage,
-         url: socialMedia.url(username: username)
+         title: String(localized: "Follow us on \(socialPlatform.rawValue)"),
+         systemImage: socialPlatform.systemImage,
+         url: socialPlatform.url(handle: handle)
       )
    }
 
-   public static func developerOn(socialMedia: SocialMedia, username: String) -> Self {
+   public static func developerOn(socialPlatform: SocialPlatform, handle: String) -> Self {
       Link(
-         title: String(localized: "Developer on \(socialMedia.rawValue)"),
-         systemImage: socialMedia.systemImage,
-         url: socialMedia.url(username: username)
+         title: String(localized: "Developer on \(socialPlatform.rawValue)"),
+         systemImage: socialPlatform.systemImage,
+         url: socialPlatform.url(handle: handle)
       )
    }
 
-   public static func developerOnMastodon(instance: String, username: String) -> Self {
+   public static func developerOnMastodon(instance: String, handle: String) -> Self {
       Link(
-         title: String(localized: "Developer on \(SocialMedia.mastodonDotSocial.rawValue)"),
-         systemImage: SocialMedia.mastodonDotSocial.systemImage,
-         url: URL(string: "https://\(instance)/@\(username)")!
+         title: String(localized: "Developer on \(SocialPlatform.mastodonDotSocial.rawValue)"),
+         systemImage: SocialPlatform.mastodonDotSocial.systemImage,
+         url: URL(string: "https://\(instance)/@\(handle)")!
       )
    }
 
-   public static func appOn(socialMedia: SocialMedia, username: String) -> Self {
+   public static func appOn(socialPlatform: SocialPlatform, handle: String) -> Self {
       Link(
-         title: String(localized: "App on \(socialMedia.rawValue)"),
-         systemImage: socialMedia.systemImage,
-         url: socialMedia.url(username: username)
+         title: String(localized: "App on \(socialPlatform.rawValue)"),
+         systemImage: socialPlatform.systemImage,
+         url: socialPlatform.url(handle: handle)
       )
    }
 
-   public static func appOnMastodon(instance: String, username: String) -> Self {
+   public static func appOnMastodon(instance: String, handle: String) -> Self {
       Link(
-         title: String(localized: "App on \(SocialMedia.mastodonDotSocial.rawValue)"),
-         systemImage: SocialMedia.mastodonDotSocial.systemImage,
-         url: URL(string: "https://\(instance)/@\(username)")!
+         title: String(localized: "App on \(SocialPlatform.mastodonDotSocial.rawValue)"),
+         systemImage: SocialPlatform.mastodonDotSocial.systemImage,
+         url: URL(string: "https://\(instance)/@\(handle)")!
       )
    }
 
