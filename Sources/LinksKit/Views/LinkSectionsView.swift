@@ -26,7 +26,6 @@ struct LinkSectionsView: View {
                Text(title)
             }
          }
-         .labelStyle(.titleAndIcon)
       }
    }
 }
