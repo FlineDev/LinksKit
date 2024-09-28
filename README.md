@@ -4,15 +4,18 @@
 
 # LinksKit
 
-Apple requires that every app must link to their privacy policy and additionally to the terms of use (if it has in-app purchases) as part of their guidelines. Most apps solve this by adding a "Links" section somewhere in their apps settings. And while at it, they also add some more links like to rate the app, to their FAQ or to get support. This package comes with all these common things built-in so you can save a lot of time while setting up these kinds of screens. And it even supports the most common place on macOS as well: the help menu!
+Every app on the App Store must provide essential links like a privacy policy and, if applicable, terms of use (for in-app purchases) to comply with Apple's guidelines. Many apps handle this by adding a "Links" section in their settings, including additional helpful links like app ratings, FAQs, and support options.
+
+That's where LinksKit comes in: it offers **a simple, ready-to-use solution to handle all these common links**, saving you a ton of time. Whether it's legal, help, or app promotion links, LinksKit covers it. And for macOS, it even supports adding these links right into the **Help** menu!
+
 
 ## Usage
 
-Basically, you just need to `import LinksKit` and place a `LinksView()` somewhere inside a `List` or `Form` view. It will automatically create all the sections you need. But for the `LinksView` to know what links to present, you need to do some setup first:
+Getting started with LinksKit is easy. After adding the package to your project, simply `import LinksKit` and place a `LinksView()` inside a `List` or `Form` view. But before doing that, you'll need to configure the links you want to include.
 
 ### Minimal Setup
 
-For the minimal variant which contains only the legal links and the app rating & contact email, you can add this code to your app entry point:
+For a basic setup, which includes legal links (like privacy policy and terms of use), app rating, and a contact email, you can configure LinksKit like this:
 
 ```swift
 import SwiftUI
@@ -37,19 +40,19 @@ struct YourApp: App {
 }
 ```
 
-> Tip: The `providerToken` is the `pt` query parameter in the campaign link of your app (e.g. ` https://apps.apple.com/app/apple-store/id123456789?**pt=123456**&ct=test1234&mt=8`). If you are new to campaign links, make sure to learn about them [here](https://developer.apple.com/help/app-store-connect/view-app-analytics/manage-campaigns) – they basically help you understand where people have discovered your app. Note that you don't have to create campaign links using App Store Connect over and over again – the `providerToken` is the same for all your apps and you can change the `campaignToken` (`ct` query parameter) to anything you like. LinksKit sends your apps Bundle ID as the campaign token by default, that's why you don't need to set it up.
+> **Tip:** The `providerToken` is part of your app's campaign link (look for the `pt` query parameter). Campaign links are a great way to track where users are finding your app. Learn more about them [here](https://developer.apple.com/help/app-store-connect/view-app-analytics/manage-campaigns). LinksKit automatically uses your app's Bundle ID as the campaign token, so no extra setup is needed.
 
-> Note: LinksKit automatically adds the link to Apples terms of use for apps with in-app purchases to the `.legalLinks` section – no action needed. It just works. 🚀
+> **Note:** LinksKit will automatically add Apple's terms of use link to `.legalLinks` for apps with in-app purchases. No need to configure it yourself – it just works! 🚀
 
 ### Optional Extras
 
-LinksKit is fully customizable but comes also with built-in extras for your convenience:
+LinksKit goes beyond the basics, offering more customization to fit your needs. You can:
 
-* `.helpLinks` also accepts an optional `faqURL` parameter if you have a link for common questions
-* `.socialMenus(appLinks:developerLinks:)` is for linking to your and/or your apps socials
-* `.appMenus(ownAppLinks:friendsAppLinks:)` is for linking to your other apps and/or some friends apps
+* Add an FAQ link with `faqURL` passed to `.helpLinks`
+* Link to your app's or developer's social media with `.socialMenus(appLinks:developerLinks:)`
+* Promote your other apps or apps from friends using `.appMenus(ownAppLinks:friendsAppLinks:)`
 
-A real-world example from my app [TranslateKit](https://apps.apple.com/app/apple-store/id6476773066?pt=549314&ct=github.com&mt=8) that makes use of all these extras looks like this:
+Here’s a real-world example from my app [TranslateKit](https://apps.apple.com/app/apple-store/id6476773066?pt=549314&ct=github.com&mt=8), showcasing all of these features:
 
 ```swift
 init() {
@@ -111,35 +114,11 @@ func configureLinksKit() {
 }
 ```
 
-> Note: The reason `.ownApp` and `.friendsApp` are named differently is because LinksKit will automatically add your `providerToken` to your own apps while you need to pass your friends `publisherToken` using the optional parameter in case you know it.
-
-### Custom Links & Menus
-
-On top of the built-in convenience helpers `.helpLinks`, `.socialMenus`, `.appMenus`, and `.legalLinks`, you can also create own complete custom `LinkSection` instances and pass your own links. You can even nest them! For example, `.appMenus` is just a convenience for this equivalent `LinkSection`:
-
-```swift
-LinkSection(
-   title: "App Links",
-   entries: [
-      .menu(LinkMenu(
-         title: "More Apps from Developer",
-         systemImage: "plus.square.on.square",
-         linkSections: [ownDeveloperApps, ownConsumerApps, ownVisionApps]
-      )),
-      .menu(LinkMenu(
-         title: "Apps from Friends",
-         systemImage: "hand.thumbsup",
-         linkSections: [nicosApps, jansApps]
-      )),
-   ]
-)
-```
-
-The `entries` parameter accepts one of `.menu(LinkMenu)` or `.link(Link)` and you can nest as many levels as SwiftUI supports (`.menu` becomes a `Menu` view, `.link` a `Button`).
+> **Note:** The `.ownApp` and `.friendsApp` helpers behave differently for a reason. LinksKit will automatically append your `providerToken` for your own apps, while you'll need to manually include a `publisherToken` for your friends’ apps if you know it.
 
 ### View Setup
 
-For all platforms except macOS, it's common to have a settings screen with a `Form` or `List`. Just add `LinksView()` inside it like so:
+To add LinksKit to your app’s settings screen, typically structured as a `Form` or `List`, just insert a `LinksView()` like so:
 
 ```swift
 import SwiftUI
@@ -157,14 +136,11 @@ struct SettingsView: View {
 }
 ```
 
-That's it – really! You can even remove the `#if !os(macOS)` check if your app doesn't natively support macOS.
-
-The result on non-Mac platforms should look like this:
+And that’s it! If you’re not targeting macOS, the result should look like this:
 
 <img src="https://raw.githubusercontent.com/FlineDev/LinksKit/main/Images/PhoneSettings.jpeg" />
 
-
-When targeting macOS, it's more common to put links into the `Help` menu bar instead of the Settings screen. To do this just add `LinksView()` to your commands menu like so:
+For macOS apps, the best place for these links is often in the Help menu. You can easily add a `LinksView()` to the menu bar:
 
 ```swift
 import SwiftUI
@@ -185,17 +161,41 @@ struct YourApp: App {
 }
 ```
 
-You need to pass `.labelStyle(.titleAndIcon)` to see the icons here, because by default, the menu entries use the `.titleOnly` label style.
-
-The result on Mac will look something like this:
+Here’s what that will look like on macOS:
 
 <img src="https://raw.githubusercontent.com/FlineDev/LinksKit/main/Images/MacHelpMenu.jpeg" />
 
+### Custom Links & Menus 
+
+If the default helpers like `.helpLinks` or `.appMenus` don't fit your exact use case, you can create fully custom `LinkSection` instances and add your own links. You can even nest them! For example, `.appMenus` is just a convenience for this equivalent `LinkSection`:
+
+
+```swift
+LinkSection(
+   title: "App Links",
+   entries: [
+      .menu(LinkMenu(
+         title: "More Apps from Developer",
+         systemImage: "plus.square.on.square",
+         linkSections: [ownDeveloperApps, ownConsumerApps, ownVisionApps]
+      )),
+      .menu(LinkMenu(
+         title: "Apps from Friends",
+         systemImage: "hand.thumbsup",
+         linkSections: [nicosApps, jansApps]
+      )),
+   ]
+)
+```
+
+The `entries` parameter accepts one of `.menu(LinkMenu)` or `.link(Link)` and you can nest as many levels as SwiftUI supports (`.menu` is rendered as a `Menu` view, `.link` as a `Button`).
+
 ### Localization
 
-All texts that are built-in to LinksKit are pre-localized to all [the same ~40 languages supported by iOS](https://www.apple.com/ios/feature-availability/#system-language-system-language). No action needed. If you need more languages, please open an issue on GitHub – I'm happy to add more.
+All of LinksKit's built-in strings are already localized in around 40 languages, covering all the languages supported by iOS. No setup is needed. If you require additional languages, feel free to open an issue on GitHub – I’m happy to add them!
 
-If you want to localize any other text you pass to LinksKit APIs such as the names of your apps, just use `String(localized: "your-text")` and localize the text in your apps String Catalog as usual.
+If you need to localize the names of your apps or any other passed text, you can use `String(localized:)` as usual in your app.
+
 
 ## Showcase
 
