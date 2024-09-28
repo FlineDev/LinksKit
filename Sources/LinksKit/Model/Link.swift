@@ -76,7 +76,7 @@ extension Link {
       Link(
          title: name,
          systemImage: systemImage,
-         url: URL(string: "https://apps.apple.com/app/id\(id)?pt=\(LinksKit.publisherToken)&ct=\(campaignToken)&mt=8")!
+         url: URL(string: "https://apps.apple.com/app/id\(id)?pt=\(LinksKit.providerToken)&ct=\(campaignToken)&mt=8")!
       )
    }
 
@@ -84,14 +84,14 @@ extension Link {
       id: String,
       name: String,
       systemImage: String,
-      publisherToken: String? = nil,
+      providerToken: String? = nil,
       campaignToken: String = Bundle.main.bundleIdentifier ?? "com.default.identifier"
    ) -> Self {
-      if let publisherToken {
+      if let providerToken {
          Link(
             title: name,
             systemImage: systemImage,
-            url: URL(string: "https://apps.apple.com/app/id\(id)?pt=\(publisherToken)&ct=\(campaignToken)&mt=8")!
+            url: URL(string: "https://apps.apple.com/app/id\(id)?pt=\(providerToken)&ct=\(campaignToken)&mt=8")!
          )
       } else {
          Link(

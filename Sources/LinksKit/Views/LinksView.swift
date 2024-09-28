@@ -30,8 +30,8 @@ public struct LinksView: View {
          ])
 
          let nicosApps = LinkSection(entries: [
-            .link(.friendsApp(id: "1249686798", name: "NFC.cool Tools: Tag Reader", systemImage: "tag", publisherToken: "106913804")),
-            .link(.friendsApp(id: "6443995212", name: "Metadata for Fastlane Tools", systemImage: "hammer", publisherToken: "106913804")),
+            .link(.friendsApp(id: "1249686798", name: "NFC.cool Tools: Tag Reader", systemImage: "tag", providerToken: "106913804")),
+            .link(.friendsApp(id: "6443995212", name: "Metadata for Fastlane Tools", systemImage: "hammer", providerToken: "106913804")),
          ])
 
          let jansApps = LinkSection(entries: [
@@ -44,7 +44,7 @@ public struct LinksView: View {
 
          // Configure LinksKit
          LinksKit.configure(
-            publisherToken: "549314",
+            providerToken: "549314",
             linkSections: [
                .helpLinks(appID: "6476773066", faqURL: faqURL, supportEmail: "translatekit@fline.dev"),
                .socialMenus(
