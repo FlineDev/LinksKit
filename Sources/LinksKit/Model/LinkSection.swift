@@ -143,13 +143,15 @@ extension LinkSection {
    ///     developerLinks: LinkSection.developerSocialLinks(platforms: [.twitter, .github], handle: "YourDevHandle")
    /// )
    /// ```
-   public static func socialMenus(appLinks: LinkSection, developerLinks: LinkSection) -> Self {
+   public static func socialMenus(appLinks: LinkSection? = nil, developerLinks: LinkSection) -> Self {
       LinkSection(
          title: String(localized: "Social Links", bundle: .module),
          entries: [
-            .menu(LinkMenu(title: "Follow the App", systemImage: "app.badge", linkSections: [appLinks])),
-            .menu(LinkMenu(title: "Follow the Developer", systemImage: "person", linkSections: [developerLinks])),
-         ]
+            appLinks.map { links in
+               LinkSection.Entry.menu(LinkMenu( title: "Follow the App", systemImage: "app.badge", linkSections: [links]))
+            },
+            .menu(LinkMenu(title: "Follow the Developer", systemImage: "person", linkSections: [developerLinks]))
+         ].compactMap { $0 }
       )
    }
 
