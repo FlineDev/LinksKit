@@ -8,6 +8,9 @@ Every app on the App Store must provide essential links like a privacy policy an
 
 That's where LinksKit comes in: it offers **a simple, ready-to-use solution to handle all these common links**, saving you a ton of time. Whether it's legal, help, or app promotion links, LinksKit covers it. And for macOS, it even supports adding these links right into the **Help** menu!
 
+iOS Example             |  macOS Example
+------------------------|-------------------------
+<img src="https://raw.githubusercontent.com/FlineDev/LinksKit/main/Images/PhoneSettings.jpeg">  |  <img src="https://raw.githubusercontent.com/FlineDev/LinksKit/main/Images/MacHelpMenu.jpeg">
 
 ## Usage
 
