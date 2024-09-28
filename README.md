@@ -14,7 +14,7 @@ Basically, you just need to `import LinksKit` and place a `LinksView()` somewher
 
 For the minimal variant which contains only the legal links and the app rating & contact email, you can add this code to your app entry point:
 
-```
+```swift
 import SwiftUI
 
 @main
@@ -35,6 +35,7 @@ struct YourApp: App {
       // your UI code
    }
 }
+```
 
 > Tip: The `providerToken` is the `pt` query parameter in the campaign link of your app (e.g. ` https://apps.apple.com/app/apple-store/id123456789?**pt=123456**&ct=test1234&mt=8`). If you are new to campaign links, make sure to learn about them [here](https://developer.apple.com/help/app-store-connect/view-app-analytics/manage-campaigns) – they basically help you understand where people have discovered your app. Note that you don't have to create campaign links using App Store Connect over and over again – the `providerToken` is the same for all your apps and you can change the `campaignToken` (`ct` query parameter) to anything you like. LinksKit sends your apps Bundle ID as the campaign token by default, that's why you don't need to set it up.
 
