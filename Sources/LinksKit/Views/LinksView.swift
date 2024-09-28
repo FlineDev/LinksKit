@@ -1,5 +1,8 @@
 import SwiftUI
 
+/// Renders the configured links and menus in-place. Designed for use inside a `List`, `Form`, or `CommandsGroup` (macOS only).
+///
+/// - NOTE: Make sure to call ``LinksKit.configure(providerToken:linkSections)`` upon app start or this view will not work.
 public struct LinksView: View {
    public init() {}
 

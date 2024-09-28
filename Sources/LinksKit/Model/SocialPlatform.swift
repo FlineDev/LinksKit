@@ -1,5 +1,8 @@
 import Foundation
 
+/// Represents various social media platforms.
+///
+/// Use this enum to specify social media platforms when configuring social links in LinksKit.
 public enum SocialPlatform: Hashable {
    case facebook
    case github
@@ -47,6 +50,14 @@ public enum SocialPlatform: Hashable {
 }
 
 extension SocialPlatform: CustomStringConvertible {
+   /// A human-readable description of the social platform.
+   ///
+   /// This property is useful for displaying the name of the social platform in your UI.
+   ///
+   /// Example usage:
+   /// ```swift
+   /// let platformName = SocialPlatform.twitter.description // Returns "X/Twitter"
+   /// ```
    public var description: String {
       switch self {
       case .facebook: "Facebook"
