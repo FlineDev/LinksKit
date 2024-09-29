@@ -194,6 +194,16 @@ LinkSection(
 
 The `entries` parameter accepts one of `.menu(LinkMenu)` or `.link(Link)` and you can nest as many levels as SwiftUI supports (`.menu` is rendered as a `Menu` view, `.link` as a `Button`).
 
+### Label Customization
+
+LinksKit ships with additional `Label` styles which you can use to give your Form/List view a different look:
+
+* `.labelStyle(.titleAndTrailingIcon)`: Renders exactly like the default `.titleAndIcon` style, but with the icon at the trailing end.
+* `.labelStyle(.titleAndIconBadge(color:))`: Resembles Apple's style in the Settings app by adding a colored background to the leading icons.
+* `.labelStyle(.titleAndTrailingIconBadge(color:))`: Same as the above, but the icon is placed at the trailing end.
+
+<img src="https://raw.githubusercontent.com/FlineDev/LinksKit/main/Images/LabelStyles.jpeg" />
+
 ### Localization
 
 All of LinksKit's built-in strings are already localized in around 40 languages, covering all the languages supported by iOS. No setup is needed. If you require additional languages, feel free to open an issue on GitHub – I’m happy to add them!

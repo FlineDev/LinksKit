@@ -73,7 +73,7 @@ public struct LinksView: View {
       var body: some View {
          List {
             LinksView()
-               .labelStyle(.titleAndIconBadge(color: .gray))
+               .labelStyle(.titleAndIconBadge(color: .accentColor))
          }
       }
    }
