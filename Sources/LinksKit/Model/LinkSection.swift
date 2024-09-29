@@ -98,11 +98,12 @@ extension LinkSection {
    /// )
    /// ```
    public static func appSocialLinks(
+      title: String? = nil,
       platforms: [SocialPlatform],
       handle: String,
       handleOverrides: [SocialPlatform: String] = [:]
    ) -> Self {
-      LinkSection(entries: platforms.map { .link(.appOn(socialPlatform: $0, handle: handleOverrides[$0] ?? handle)) })
+      LinkSection(title: title, entries: platforms.map { .link(.appOn(socialPlatform: $0, handle: handleOverrides[$0] ?? handle)) })
    }
 
    /// Creates a section with social media links for the developer.
@@ -122,11 +123,12 @@ extension LinkSection {
    /// )
    /// ```
    public static func developerSocialLinks(
+      title: String? = nil,
       platforms: [SocialPlatform],
       handle: String,
       handleOverrides: [SocialPlatform: String] = [:]
    ) -> Self {
-      LinkSection(entries: platforms.map { .link(.developerOn(socialPlatform: $0, handle: handleOverrides[$0] ?? handle)) })
+      LinkSection(title: title, entries: platforms.map { .link(.developerOn(socialPlatform: $0, handle: handleOverrides[$0] ?? handle)) })
    }
 
    /// Creates a section with social media menus for both the app and the developer.
