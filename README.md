@@ -118,6 +118,8 @@ func configureLinksKit() {
 }
 ```
 
+> **Tip:** If you have `appLinks` but no `developerLinks` (or vice versa) when using the `.socialMenus` helper, you can just pass `.appSocialLinks` or `.developerSocialLinks` directly instead of passing `.socialMenus`.
+
 > **Note:** The `.ownApp` and `.friendsApp` helpers behave differently for a reason. LinksKit will automatically append your `providerToken` for your own apps, while you'll need to manually include a `publisherToken` for your friends’ apps if you know it.
 
 ### View Setup
