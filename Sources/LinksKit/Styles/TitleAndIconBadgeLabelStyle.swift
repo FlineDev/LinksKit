@@ -57,16 +57,16 @@ extension LabelStyle where Self == TitleAndIconBadgeLabelStyle {
 #Preview {
    Form {
       Section("Label Styles: .labelStyle(...)") {
-         Label(".titleAndIcon (SwiftUI Default)", systemImage: "magnifyingglass")
+         Label(String(".titleAndIcon (SwiftUI Default)"), systemImage: "magnifyingglass")
             .labelStyle(.titleAndIcon)
 
-         Label(".titleAndTrailingIcon", systemImage: "magnifyingglass")
+         Label(String(".titleAndTrailingIcon"), systemImage: "magnifyingglass")
             .labelStyle(.titleAndTrailingIcon)
 
-         Label(".titleAndIconBadge(color: .red)", systemImage: "magnifyingglass")
+         Label(String(".titleAndIconBadge(color: .red)"), systemImage: "magnifyingglass")
             .labelStyle(.titleAndIconBadge(color: .red))
 
-         Label(".titleAndTrailingIconBadge(color: .red)", systemImage: "magnifyingglass")
+         Label(String(".titleAndTrailingIconBadge(color: .red)"), systemImage: "magnifyingglass")
             .labelStyle(.titleAndTrailingIconBadge(color: .red))
       }
       .textCase(.none)

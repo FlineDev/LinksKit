@@ -46,18 +46,19 @@ extension LabelStyle where Self == TitleAndTrailingIconLabelStyle {
 #Preview {
    Form {
       Section("Label Styles: .labelStyle(...)") {
-         Label(".titleAndIcon (SwiftUI Default)", systemImage: "globe")
+         Label(String(".titleAndIcon (SwiftUI Default)"), systemImage: "magnifyingglass")
             .labelStyle(.titleAndIcon)
 
-         Label(".titleAndTrailingIcon", systemImage: "globe")
+         Label(String(".titleAndTrailingIcon"), systemImage: "magnifyingglass")
             .labelStyle(.titleAndTrailingIcon)
 
-         Label(".titleAndIconBadge(color: .red)", systemImage: "globe")
+         Label(String(".titleAndIconBadge(color: .red)"), systemImage: "magnifyingglass")
             .labelStyle(.titleAndIconBadge(color: .red))
 
-         Label(".titleAndTrailingIconBadge(color: .red)", systemImage: "globe")
+         Label(String(".titleAndTrailingIconBadge(color: .red)"), systemImage: "magnifyingglass")
             .labelStyle(.titleAndTrailingIconBadge(color: .red))
       }
+      .textCase(.none)
    }
 }
 #endif

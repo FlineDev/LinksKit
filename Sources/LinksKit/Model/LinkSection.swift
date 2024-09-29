@@ -149,8 +149,8 @@ extension LinkSection {
       LinkSection(
          title: String(localized: "Social Links", bundle: .module),
          entries: [
-            .menu(LinkMenu(title: "Follow the App", systemImage: "app.badge", linkSections: [appLinks])),
-            .menu(LinkMenu(title: "Follow the Developer", systemImage: "person", linkSections: [developerLinks])),
+            .menu(LinkMenu(title: String(localized: "Follow the App", bundle: .module), systemImage: "app.badge", linkSections: [appLinks])),
+            .menu(LinkMenu(title: String(localized: "Follow the Developer", bundle: .module), systemImage: "person", linkSections: [developerLinks])),
          ]
       )
    }
@@ -179,10 +179,12 @@ extension LinkSection {
    /// ```
    public static func appMenus(ownAppLinks: [LinkSection], friendsAppLinks: [LinkSection]) -> Self {
       LinkSection(
-         title: "App Links",
+         title: String(localized: "App Links", bundle: .module),
          entries: [
-            .menu(LinkMenu(title: "More Apps from Developer", systemImage: "plus.square.on.square", linkSections: ownAppLinks)),
-            .menu(LinkMenu(title: "Apps from Friends", systemImage: "hand.thumbsup", linkSections: friendsAppLinks)),
+            .menu(
+               LinkMenu(title: String(localized: "More Apps from Developer", bundle: .module), systemImage: "plus.square.on.square", linkSections: ownAppLinks)
+            ),
+            .menu(LinkMenu(title: String(localized: "Apps from Friends", bundle: .module), systemImage: "hand.thumbsup", linkSections: friendsAppLinks)),
          ]
       )
    }
