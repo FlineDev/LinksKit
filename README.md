@@ -46,7 +46,7 @@ struct YourApp: App {
 
 > **Tip:** Your `providerToken` already exists and is the same for all your apps. Unfortunately, Apple does not have an easier way to look it up than within the "Campaign" creation form on App Store Connect under Analytics > Acquisition > Campaigns. You don't actually need to press 'Create', just enter some text in the form and you'll see the `pt` parameter in the Campaign Link preview. Campaign links are a great way to track where users are finding your app. Learn more about them [here](https://developer.apple.com/help/app-store-connect/view-app-analytics/manage-campaigns).
 
-<img src="https://raw.githubusercontent.com/FlineDev/LinksKit/main/Images/ProviderToken.jpeg" />
+<img src="https://raw.githubusercontent.com/FlineDev/LinksKit/main/Images/ProviderTokenCampaign.jpeg" />
 
 > **Note:** LinksKit will automatically add Apple's terms of use link to `.legalLinks` for apps with in-app purchases. No need to configure it yourself – it just works! 🚀
 
