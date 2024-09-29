@@ -86,8 +86,8 @@ func configureLinksKit() {
    ])
 
    let nicosApps = LinkSection(entries: [
-      .link(.friendsApp(id: "1249686798", name: "NFC.cool Tools: Tag Reader", systemImage: "tag", publisherToken: "106913804")),
-      .link(.friendsApp(id: "6443995212", name: "Metadata for Fastlane Tools", systemImage: "hammer", publisherToken: "106913804")),
+      .link(.friendsApp(id: "1249686798", name: "NFC.cool Tools: Tag Reader", systemImage: "tag", providerToken: "106913804")),
+      .link(.friendsApp(id: "6443995212", name: "Metadata for Fastlane Tools", systemImage: "hammer", providerToken: "106913804")),
    ])
 
    let jansApps = LinkSection(entries: [
@@ -96,7 +96,7 @@ func configureLinksKit() {
 
    // Configure LinksKit
    LinksKit.configure(
-      publisherToken: "549314",
+      providerToken: "549314",
       linkSections: [
          .helpLinks(appID: "6476773066", faqURL: Constants.faqURL, supportEmail: "translatekit@fline.dev"),
          .socialMenus(
@@ -122,7 +122,7 @@ func configureLinksKit() {
 
 > **Tip:** If you have `appLinks` but no `developerLinks` (or vice versa) when using the `.socialMenus` helper, you can just pass `.appSocialLinks` or `.developerSocialLinks` directly instead of passing `.socialMenus`.
 
-> **Note:** The `.ownApp` and `.friendsApp` helpers behave differently for a reason. LinksKit will automatically append your `providerToken` for your own apps, while you'll need to manually include a `publisherToken` for your friends’ apps if you know it.
+> **Note:** The `.ownApp` and `.friendsApp` helpers behave differently for a reason. LinksKit will automatically append your `providerToken` for your own apps, while you'll need to manually include a `providerToken` for your friends’ apps if you know it.
 
 ### View Setup
 
