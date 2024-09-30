@@ -6,5 +6,5 @@ let package = Package(
    defaultLocalization: "en",
    platforms: [.iOS(.v16), .macOS(.v13), .tvOS(.v16), .visionOS(.v1), .watchOS(.v9)],
    products: [.library(name: "LinksKit", targets: ["LinksKit"])],
-   targets: [.target(name: "LinksKit")]
+   targets: [.target(name: "LinksKit", resources: [.process("Localizable.xcstrings")])]
 )
