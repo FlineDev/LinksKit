@@ -145,7 +145,7 @@ extension Link {
    /// ```
    public static func developerOn(socialPlatform: SocialPlatform, handle: String) -> Self {
       Link(
-         title: String(localized: "Developer on \(socialPlatform.description)"),
+         title: String(localized: "Developer on \(socialPlatform.description)", bundle: .module),
          systemImage: socialPlatform.systemImage,
          url: socialPlatform.url(handle: handle)
       )
@@ -164,7 +164,7 @@ extension Link {
    /// ```
    public static func appOn(socialPlatform: SocialPlatform, handle: String) -> Self {
       Link(
-         title: String(localized: "App on \(socialPlatform.description)"),
+         title: String(localized: "App on \(socialPlatform.description)", bundle: .module),
          systemImage: socialPlatform.systemImage,
          url: socialPlatform.url(handle: handle)
       )
