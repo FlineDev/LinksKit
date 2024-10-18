@@ -159,12 +159,14 @@ struct YourApp: App {
       WindowGroup {
          // your UI code
       }
+      #if os(macOS)
       .commands {
          CommandGroup(replacing: .help) {
             LinksView()
                .labelStyle(.titleAndIcon)
          }
       }
+      #endif
    }
 }
 ```
