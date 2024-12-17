@@ -4,7 +4,7 @@ import Foundation
 ///
 /// Use this enum to specify social media platforms when configuring social links in LinksKit.
 public enum SocialPlatform: Hashable {
-   case bluesky
+   case bluesky(instance: String)
    case facebook
    case github
    case instagram
@@ -36,7 +36,7 @@ public enum SocialPlatform: Hashable {
 
    func url(handle: String) -> URL {
       switch self {
-      case .bluesky: URL(string: "https://bsky.app/profile/\(handle)")!
+      case .bluesky(let instance): URL(string: "https://bsky.app/profile/\(handle).\(instance)")!
       case .facebook: URL(string: "https://facebook.com/\(handle)")!
       case .github: URL(string: "https://github.com/\(handle)")!
       case .instagram: URL(string: "https://instagram.com/\(handle)")!
