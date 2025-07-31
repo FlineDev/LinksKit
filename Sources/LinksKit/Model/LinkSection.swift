@@ -182,9 +182,15 @@ extension LinkSection {
          title: String(localized: "App Links", bundle: .module),
          entries: [
             .menu(
-               LinkMenu(title: String(localized: "More Apps from Developer", bundle: .module), systemImage: "plus.square.on.square", linkSections: ownAppLinks)
+               LinkMenu(
+                  title: String(localized: "More Apps from Developer", bundle: .module),
+                  systemImage: "plus.square.on.square",
+                  linkSections: ownAppLinks
+               )
             ),
-            .menu(LinkMenu(title: String(localized: "Apps from Friends", bundle: .module), systemImage: "hand.thumbsup", linkSections: friendsAppLinks)),
+            .menu(
+               LinkMenu(title: String(localized: "Apps from Friends", bundle: .module), systemImage: "hand.thumbsup", linkSections: friendsAppLinks)
+            ),
          ]
       )
    }
