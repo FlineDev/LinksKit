@@ -16,9 +16,18 @@ struct LinkSectionsView: View {
                   }
 
                case .menu(let menu):
-                  Menu(menu.title, systemImage: menu.systemImage) {
+                  Menu {
                      LinkSectionsView(linkSections: menu.linkSections)
+                  } label: {
+                     Label(menu.title, systemImage: menu.systemImage)
+                        #if os(visionOS)
+                        .padding(20)
+                        #endif
                   }
+                  #if os(visionOS)
+                  .padding(-20)
+                  .buttonStyle(.plain)
+                  #endif
                }
             }
          } header: {
