@@ -8,6 +8,14 @@ public struct TitleAndTrailingIconBadgeLabelStyle: LabelStyle {
    /// The color of the icon badge.
    let color: Color
 
+   private var isPreLiquidGlass: Bool {
+      if #available(iOS 26, macOS 26, tvOS 26, visionOS 26, watchOS 26, *) {
+         return false
+      } else {
+         return true
+      }
+   }
+
    /// Creates a view representing the body of a label.
    ///
    /// - Parameter configuration: The properties of the label.
@@ -23,13 +31,14 @@ public struct TitleAndTrailingIconBadgeLabelStyle: LabelStyle {
             Spacer()
 
             Group {
-               RoundedRectangle(cornerRadius: 8)
+               RoundedRectangle(cornerRadius: self.isPreLiquidGlass ? 8 : 6)
+                  .scale(self.isPreLiquidGlass ? 1 : 1.3)
                   .fill(self.color)
                   .overlay(configuration.icon.foregroundStyle(.white).font(.body))
-                  .padding(4)
+                  .padding(self.isPreLiquidGlass ? 4 : 0)
             }
             .frame(width: proxy.size.height, height: proxy.size.height)
-            .padding(.trailing, -8)
+            .padding(.trailing, self.isPreLiquidGlass ? -8 : 0)
          }
       }
    }

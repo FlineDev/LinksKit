@@ -7,6 +7,14 @@ public struct TitleAndIconBadgeLabelStyle: LabelStyle {
    /// The color of the icon badge.
    let color: Color
 
+   private var isPreLiquidGlass: Bool {
+      if #available(iOS 26, macOS 26, tvOS 26, visionOS 26, watchOS 26, *) {
+         return false
+      } else {
+         return true
+      }
+   }
+
    /// Creates a view representing the body of a label.
    ///
    /// - Parameter configuration: The properties of the label.
@@ -15,15 +23,16 @@ public struct TitleAndIconBadgeLabelStyle: LabelStyle {
    /// This method creates a horizontal stack with a colored badge containing the icon, followed by the title. The badge size adjusts to match the height of the label.
    public func makeBody(configuration: Configuration) -> some View {
       GeometryReader { proxy in
-         HStack {
+         HStack(spacing: self.isPreLiquidGlass ? 8 : 15) {
             Group {
-               RoundedRectangle(cornerRadius: 8)
+               RoundedRectangle(cornerRadius: self.isPreLiquidGlass ? 8 : 6)
+                  .scale(self.isPreLiquidGlass ? 1 : 1.3)
                   .fill(self.color)
                   .overlay(configuration.icon.foregroundStyle(.white).font(.body))
-                  .padding(4)
+                  .padding(self.isPreLiquidGlass ? 4 : 0)
             }
             .frame(width: proxy.size.height, height: proxy.size.height)
-            .padding(.leading, -8)
+            .padding(.leading, self.isPreLiquidGlass ? -8 : 0)
 
             configuration.title
          }
