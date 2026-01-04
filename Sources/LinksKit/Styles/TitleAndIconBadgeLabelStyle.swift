@@ -3,7 +3,7 @@ import SwiftUI
 /// A custom `LabelStyle` that displays the icon as a colored badge with the title next to it. This resembles the same look as Apple uses in the Settings app.
 ///
 /// This style is useful for creating visually appealing labels with a colored icon badge, commonly used in list items or navigation elements.
-public struct TitleAndIconBadgeLabelStyle: LabelStyle {
+public struct TitleAndIconBadgeLabelStyle: LabelStyle, Sendable {
    /// The color of the icon badge.
    let color: Color
 

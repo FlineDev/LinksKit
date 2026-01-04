@@ -4,7 +4,7 @@ import SwiftUI
 ///
 /// This style is useful for creating labels with a trailing icon,
 /// commonly used in list items or menu entries where you want to emphasize the trailing icon.
-public struct TitleAndTrailingIconLabelStyle: LabelStyle {
+public struct TitleAndTrailingIconLabelStyle: LabelStyle, Sendable {
    /// Creates a view representing the body of a label.
    ///
    /// - Parameter configuration: The properties of the label.

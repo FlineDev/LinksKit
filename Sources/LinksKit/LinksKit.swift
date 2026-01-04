@@ -1,9 +1,13 @@
 import Foundation
 
 /// The wrapper to configure LinksKit.
-public actor LinksKit {
+@MainActor
+public final class LinksKit {
    static var providerToken: String = ""
    static var linkSections: [LinkSection] = []
+
+   // Private initializer to prevent instantiation
+   private init() {}
 
    /// The main configuration method to be called upon app start to confure the contents of ``LinksView`` for use in settings/help menu.
    ///

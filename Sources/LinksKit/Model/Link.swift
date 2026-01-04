@@ -3,7 +3,7 @@ import SwiftUI
 /// Represents a link with a title, system image, and URL.
 ///
 /// Use this struct to create custom links or use the provided static methods for common link types.
-public struct Link: Identifiable {
+public struct Link: Identifiable, Sendable {
    public let id: UUID = UUID()
    let title: String
    let systemImage: String
@@ -188,6 +188,7 @@ extension Link {
    ///     campaignToken: "myOtherApp"
    /// )
    /// ```
+   @MainActor
    public static func ownApp(
       id: String,
       name: String,

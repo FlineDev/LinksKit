@@ -3,7 +3,7 @@ import Foundation
 /// Represents a menu containing multiple link sections.
 ///
 /// Use this struct to create grouped links that can be displayed in a submenu.
-public struct LinkMenu: Identifiable {
+public struct LinkMenu: Identifiable, Sendable {
    public let id: UUID = UUID()
    let title: String
    let systemImage: String

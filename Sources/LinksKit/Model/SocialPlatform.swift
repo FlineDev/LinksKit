@@ -3,7 +3,7 @@ import Foundation
 /// Represents various social media platforms.
 ///
 /// Use this enum to specify social media platforms when configuring social links in LinksKit.
-public enum SocialPlatform: Hashable {
+public enum SocialPlatform: Hashable, Sendable {
    case bluesky
    case facebook
    case github

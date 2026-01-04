@@ -4,7 +4,7 @@ import SwiftUI
 ///
 /// This style is useful for creating labels with a trailing colored icon badge,
 /// commonly used in list items or settings menus where you want to emphasize the trailing icon.
-public struct TitleAndTrailingIconBadgeLabelStyle: LabelStyle {
+public struct TitleAndTrailingIconBadgeLabelStyle: LabelStyle, Sendable {
    /// The color of the icon badge.
    let color: Color
 

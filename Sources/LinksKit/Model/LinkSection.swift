@@ -1,9 +1,9 @@
 import SwiftUI
 
 /// Represents a section of links or submenus.
-public struct LinkSection: Identifiable {
+public struct LinkSection: Identifiable, Sendable {
    /// Represents an entry in a LinkSection, which can be either a Link or a LinkMenu.
-   public enum Entry: Identifiable {
+   public enum Entry: Identifiable, Sendable {
       case link(Link)
       case menu(LinkMenu)
 
