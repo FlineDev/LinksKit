@@ -1196,7 +1196,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suis l'application"
+            "value" : "Suivre l’application"
           }
         },
         "fr-CA" : {
@@ -1286,7 +1286,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Segue a aplicação"
+            "value" : "Seguir a aplicação"
           }
         },
         "ro" : {
@@ -1298,7 +1298,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Следуй за приложением"
+            "value" : "Следите за приложением"
           }
         },
         "sk" : {
@@ -1422,7 +1422,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suis le développeur"
+            "value" : "Suivre le développeur"
           }
         },
         "fr-CA" : {
@@ -1512,7 +1512,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Segue o programador"
+            "value" : "Seguir o programador"
           }
         },
         "ro" : {
@@ -1524,7 +1524,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Следуй за разработчиком"
+            "value" : "Следите за разработчиком"
           }
         },
         "sk" : {
@@ -1648,7 +1648,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suis-nous sur %@"
+            "value" : "Suivez-nous sur %@"
           }
         },
         "fr-CA" : {
@@ -1738,7 +1738,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Segue-nos em %@"
+            "value" : "Siga-nos em %@"
           }
         },
         "ro" : {
@@ -1750,7 +1750,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Следи за нами на %@"
+            "value" : "Следите за нами на %@"
           }
         },
         "sk" : {
@@ -3230,7 +3230,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Note l'application"
+            "value" : "Noter l’application"
           }
         },
         "fr-CA" : {
@@ -3320,7 +3320,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avalia a aplicação"
+            "value" : "Avaliar a aplicação"
           }
         },
         "ro" : {
@@ -3456,7 +3456,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Applications connexes que tu pourrais aimer"
+            "value" : "Applications connexes susceptibles de vous plaire"
           }
         },
         "fr-CA" : {
@@ -3546,7 +3546,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplicações relacionadas de que poderás gostar"
+            "value" : "Aplicações relacionadas de que poderá gostar"
           }
         },
         "ro" : {
@@ -3558,7 +3558,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Похожие приложения, которые могут тебе понравиться"
+            "value" : "Похожие приложения, которые могут Вам понравиться"
           }
         },
         "sk" : {
