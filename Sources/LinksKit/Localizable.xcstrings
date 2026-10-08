@@ -1202,7 +1202,7 @@
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suivez l’application"
+            "value" : "Suivre l’application"
           }
         },
         "he" : {
@@ -1428,7 +1428,7 @@
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suivez le développeur"
+            "value" : "Suivre le développeur"
           }
         },
         "he" : {
@@ -1648,13 +1648,13 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suivez-nous sur %@"
+            "value" : "Nous suivre sur %@"
           }
         },
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suivez-nous sur %@"
+            "value" : "Nous suivre sur %@"
           }
         },
         "he" : {
@@ -3236,7 +3236,7 @@
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Évaluez l’application"
+            "value" : "Évaluer l’application"
           }
         },
         "he" : {
