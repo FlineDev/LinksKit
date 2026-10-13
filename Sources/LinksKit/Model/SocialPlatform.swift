@@ -34,9 +34,16 @@ public enum SocialPlatform: Hashable, Sendable {
       }
    }
 
+   /// Bluesky handles are lowercase domain names. A handle without a dot ("Jeehut", as shared with other platforms) is
+   /// the short form of an account on the default server and resolves to "jeehut.bsky.social"; a leading "@" is dropped.
+   static func blueskyHandle(_ handle: String) -> String {
+      let handle = (handle.hasPrefix("@") ? String(handle.dropFirst()) : handle).lowercased()
+      return handle.contains(".") ? handle : "\(handle).bsky.social"
+   }
+
    func url(handle: String) -> URL {
       switch self {
-      case .bluesky: URL(string: "https://bsky.app/profile/\(handle)")!
+      case .bluesky: URL(string: "https://bsky.app/profile/\(Self.blueskyHandle(handle))")!
       case .facebook: URL(string: "https://facebook.com/\(handle)")!
       case .github: URL(string: "https://github.com/\(handle)")!
       case .instagram: URL(string: "https://instagram.com/\(handle)")!
