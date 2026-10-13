@@ -18,7 +18,7 @@
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Enllaços d'aplicacions"
+            "value" : "Enllaços d’aplicacions"
           }
         },
         "cs" : {
@@ -30,7 +30,7 @@
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App-links"
+            "value" : "Applinks"
           }
         },
         "de" : {
@@ -54,7 +54,7 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Enlaces App"
+            "value" : "Enlaces de apps"
           }
         },
         "fi" : {
@@ -66,7 +66,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Liens de l'application"
+            "value" : "Liens de l’application"
           }
         },
         "fr-CA" : {
@@ -96,7 +96,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App Linkek"
+            "value" : "Applinkek"
           }
         },
         "id" : {
@@ -138,7 +138,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App koppelingen"
+            "value" : "App-links"
           }
         },
         "pl" : {
@@ -180,13 +180,13 @@
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Länkar till appen"
+            "value" : "Applänkar"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ลิงค์แอป"
+            "value" : "ลิงก์แอป"
           }
         },
         "tr" : {
@@ -244,7 +244,7 @@
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App on %@"
+            "value" : "Aplicació a %@"
           }
         },
         "cs" : {
@@ -304,7 +304,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "אפליקציה ב- %@"
+            "value" : "אפליקציה ב-%@"
           }
         },
         "hi" : {
@@ -322,7 +322,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App on %@"
+            "value" : "Alkalmazás itt: %@"
           }
         },
         "id" : {
@@ -358,7 +358,7 @@
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App on %@"
+            "value" : "Apl di %@"
           }
         },
         "nl" : {
@@ -382,7 +382,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplica-te em %@"
+            "value" : "Aplicação em %@"
           }
         },
         "ro" : {
@@ -412,7 +412,7 @@
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App on %@"
+            "value" : "แอปบน %@"
           }
         },
         "tr" : {
@@ -470,7 +470,7 @@
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplicacions d'amics"
+            "value" : "Aplicacions d’amics"
           }
         },
         "cs" : {
@@ -518,7 +518,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Applications d'amis"
+            "value" : "Applications d’amis"
           }
         },
         "fr-CA" : {
@@ -638,7 +638,7 @@
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "แอพจากเพื่อน"
+            "value" : "แอปจากเพื่อน"
           }
         },
         "tr" : {
@@ -656,7 +656,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ứng dụng từ Friends"
+            "value" : "Ứng dụng từ bạn bè"
           }
         },
         "zh-Hans" : {
@@ -696,7 +696,7 @@
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Contactar amb el servei de suport"
+            "value" : "Contacta amb el servei de suport"
           }
         },
         "cs" : {
@@ -750,7 +750,7 @@
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Communiquer avec le service d’assistance"
+            "value" : "Contacter l’assistance"
           }
         },
         "he" : {
@@ -786,7 +786,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Contatta l'assistenza"
+            "value" : "Contatta l’assistenza"
           }
         },
         "ja" : {
@@ -798,7 +798,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Қолдау көрсету сервисіне хабарласу"
+            "value" : "Қолдау көрсету қызметіне хабарласу"
           }
         },
         "ko" : {
@@ -982,7 +982,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "מפתח ב- %@"
+            "value" : "מפתח ב-%@"
           }
         },
         "hi" : {
@@ -1000,7 +1000,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fejlesztő a %@"
+            "value" : "Fejlesztő itt: %@"
           }
         },
         "id" : {
@@ -1036,7 +1036,7 @@
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developer on %@"
+            "value" : "Pemaju di %@"
           }
         },
         "nl" : {
@@ -1060,7 +1060,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desenvolve em %@"
+            "value" : "Programador em %@"
           }
         },
         "ro" : {
@@ -1090,7 +1090,7 @@
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "พัฒนาบน %@"
+            "value" : "ผู้พัฒนาบน %@"
           }
         },
         "tr" : {
@@ -1142,19 +1142,19 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Следвайте приложението"
+            "value" : "Следвай приложението"
           }
         },
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Segueix l'App"
+            "value" : "Segueix l’App"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sledování aplikace"
+            "value" : "Sledovat aplikaci"
           }
         },
         "da" : {
@@ -1172,7 +1172,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ακολουθήστε την εφαρμογή"
+            "value" : "Ακολούθηση εφαρμογής"
           }
         },
         "en-GB" : {
@@ -1196,19 +1196,19 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suis l'application"
+            "value" : "Suivre l’application"
           }
         },
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suivez l’application"
+            "value" : "Suivre l’application"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "עקוב אחר האפליקציה"
+            "value" : "מעקב אחר האפליקציה"
           }
         },
         "hi" : {
@@ -1220,13 +1220,13 @@
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pratite aplikaciju"
+            "value" : "Prati aplikaciju"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kövesse az alkalmazást"
+            "value" : "Alkalmazás követése"
           }
         },
         "id" : {
@@ -1238,7 +1238,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Segui l'app"
+            "value" : "Segui l’app"
           }
         },
         "ja" : {
@@ -1286,7 +1286,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Segue a aplicação"
+            "value" : "Seguir a aplicação"
           }
         },
         "ro" : {
@@ -1298,13 +1298,13 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Следуй за приложением"
+            "value" : "Следить за приложением"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sledovanie aplikácie"
+            "value" : "Sledovať aplikáciu"
           }
         },
         "sv" : {
@@ -1316,19 +1316,19 @@
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ติดตามแอพ"
+            "value" : "ติดตามแอป"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uygulamayı Takip Edin"
+            "value" : "Uygulamayı Takip Et"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Слідкуйте за додатком"
+            "value" : "Слідкувати за додатком"
           }
         },
         "vi" : {
@@ -1368,7 +1368,7 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Следвайте разработчика"
+            "value" : "Следвай разработчика"
           }
         },
         "ca" : {
@@ -1380,7 +1380,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sledujte vývojáře"
+            "value" : "Sledovat vývojáře"
           }
         },
         "da" : {
@@ -1398,7 +1398,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ακολουθήστε τον προγραμματιστή"
+            "value" : "Ακολούθηση προγραμματιστή"
           }
         },
         "en-GB" : {
@@ -1422,19 +1422,19 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suis le développeur"
+            "value" : "Suivre le développeur"
           }
         },
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suivez le développeur"
+            "value" : "Suivre le développeur"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "עקוב אחר המפתח"
+            "value" : "מעקב אחר המפתח"
           }
         },
         "hi" : {
@@ -1446,13 +1446,13 @@
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pratite programera"
+            "value" : "Prati programera"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kövesse a fejlesztőt"
+            "value" : "Fejlesztő követése"
           }
         },
         "id" : {
@@ -1512,7 +1512,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Segue o programador"
+            "value" : "Seguir o programador"
           }
         },
         "ro" : {
@@ -1524,13 +1524,13 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Следуй за разработчиком"
+            "value" : "Следить за разработчиком"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sledujte vývojára"
+            "value" : "Sledovať vývojára"
           }
         },
         "sv" : {
@@ -1548,13 +1548,13 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Geliştiriciyi Takip Edin"
+            "value" : "Geliştiriciyi Takip Et"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Слідкуйте за розробником"
+            "value" : "Слідкувати за розробником"
           }
         },
         "vi" : {
@@ -1642,25 +1642,25 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Seuraa meitä osoitteessa %@"
+            "value" : "Seuraa meitä palvelussa %@"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suis-nous sur %@"
+            "value" : "Nous suivre sur %@"
           }
         },
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suivez-nous sur %@"
+            "value" : "Nous suivre sur %@"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "עקבו אחרינו ב %@"
+            "value" : "עקבו אחרינו ב-%@"
           }
         },
         "hi" : {
@@ -1678,7 +1678,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kövessen minket a %@"
+            "value" : "Kövessen minket itt: %@"
           }
         },
         "id" : {
@@ -1738,7 +1738,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Segue-nos em %@"
+            "value" : "Siga-nos em %@"
           }
         },
         "ro" : {
@@ -1750,7 +1750,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Следи за нами на %@"
+            "value" : "Следите за нами на %@"
           }
         },
         "sk" : {
@@ -1774,7 +1774,7 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bizi %@ adresinden takip edin"
+            "value" : "Bizi %@ üzerinden takip edin"
           }
         },
         "uk" : {
@@ -1804,7 +1804,7 @@
         "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "在%@上關注我哋"
+            "value" : "在%@上關注我們"
           }
         }
       }
@@ -1928,7 +1928,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Жиі қойылатын сұрақтар (жиі қойылатын сұрақтар)"
+            "value" : "Жиі қойылатын сұрақтар (FAQ)"
           }
         },
         "ko" : {
@@ -2024,7 +2024,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "常見問題 （FAQ）"
+            "value" : "常見問題（FAQ）"
           }
         },
         "zh-HK" : {
@@ -2272,25 +2272,25 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Юридически"
+            "value" : "Правно"
           }
         },
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Legal"
+            "value" : "Informació legal"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Právní"
+            "value" : "Právní dokumenty"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Juridisk"
+            "value" : "Juridiske oplysninger"
           }
         },
         "de" : {
@@ -2302,7 +2302,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Νομικό"
+            "value" : "Νομικά"
           }
         },
         "en-GB" : {
@@ -2314,19 +2314,19 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Legal"
+            "value" : "Aviso legal"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oikeudellinen"
+            "value" : "Lakitiedot"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Juridique"
+            "value" : "Mentions légales"
           }
         },
         "fr-CA" : {
@@ -2344,13 +2344,13 @@
         "hi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "विधि-सम्‍मत"
+            "value" : "क़ानूनी"
           }
         },
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pravni"
+            "value" : "Pravne informacije"
           }
         },
         "hu" : {
@@ -2362,49 +2362,49 @@
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hukum"
+            "value" : "Legal"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Legale"
+            "value" : "Note legali"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "リーガル"
+            "value" : "法律に基づく情報"
           }
         },
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Заңды"
+            "value" : "Құқықтық"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "법률"
+            "value" : "법적 정보"
           }
         },
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Undang"
+            "value" : "Undang-undang"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Juridisch"
+            "value" : "Juridische informatie"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Prawny"
+            "value" : "Informacje prawne"
           }
         },
         "pt-BR" : {
@@ -2416,37 +2416,37 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Legal"
+            "value" : "Informação legal"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Legal"
+            "value" : "Mențiuni legale"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Юридическая"
+            "value" : "Правовые документы"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Právna stránka"
+            "value" : "Právne informácie"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Juridisk"
+            "value" : "Juridisk information"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ชอบด้วยกฎหมาย"
+            "value" : "ทางกฎหมาย"
           }
         },
         "tr" : {
@@ -2458,31 +2458,31 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Юридичний"
+            "value" : "Правовий текст"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hợp pháp"
+            "value" : "Pháp lý"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "法律"
+            "value" : "法律信息"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "法律"
+            "value" : "法律資訊"
           }
         },
         "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "法律"
+            "value" : "法律資料"
           }
         }
       }
@@ -2498,13 +2498,13 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Още приложения от Разработчик"
+            "value" : "Още приложения от разработчика"
           }
         },
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Més aplicacions de Developer"
+            "value" : "Més aplicacions del desenvolupador"
           }
         },
         "cs" : {
@@ -2516,7 +2516,7 @@
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Flere apps fra Developer"
+            "value" : "Flere apps fra udvikleren"
           }
         },
         "de" : {
@@ -2528,7 +2528,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Περισσότερες εφαρμογές από Developer"
+            "value" : "Περισσότερες εφαρμογές από τον προγραμματιστή"
           }
         },
         "en-GB" : {
@@ -2540,31 +2540,31 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Más apps de Desarrollador"
+            "value" : "Más apps del desarrollador"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lisää sovelluksia kehittäjältä Developer"
+            "value" : "Lisää sovelluksia kehittäjältä"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Plus d'applications de Developer"
+            "value" : "Plus d’applications du développeur"
           }
         },
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Plus d’applications de Développeur"
+            "value" : "Plus d’applications du développeur"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "אפליקציות נוספות מאת Developer"
+            "value" : "אפליקציות נוספות מהמפתח"
           }
         },
         "hi" : {
@@ -2582,13 +2582,13 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "További alkalmazások a fejlesztőtől Developer"
+            "value" : "További alkalmazások a fejlesztőtől"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lebih banyak aplikasi dari Pengembang"
+            "value" : "Lebih banyak aplikasi dari pengembang"
           }
         },
         "it" : {
@@ -2618,13 +2618,13 @@
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lebih banyak apl daripada Pembangun"
+            "value" : "Lebih banyak apl daripada pemaju"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Meer apps van Ontwikkelaar"
+            "value" : "Meer apps van de ontwikkelaar"
           }
         },
         "pl" : {
@@ -2642,13 +2642,13 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mais aplicações do Programador"
+            "value" : "Mais aplicações do programador"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mai multe aplicații de la Developer"
+            "value" : "Mai multe aplicații de la dezvoltator"
           }
         },
         "ru" : {
@@ -2666,19 +2666,19 @@
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fler appar från Utvecklare"
+            "value" : "Fler appar från utvecklaren"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "แอพเพิ่มเติมจาก Developer"
+            "value" : "แอปเพิ่มเติมจากผู้พัฒนา"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developer'dan diğer uygulamalar"
+            "value" : "Geliştiriciden diğer uygulamalar"
           }
         },
         "uk" : {
@@ -2690,7 +2690,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Xem thêm từ Nhà phát triển"
+            "value" : "Thêm ứng dụng từ nhà phát triển"
           }
         },
         "zh-Hans" : {
@@ -2702,13 +2702,13 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developer 的其他應用"
+            "value" : "開發者的其他應用程式"
           }
         },
         "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developer嘅其他應用"
+            "value" : "開發者的其他應用程式"
           }
         }
       }
@@ -2724,7 +2724,7 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Повече приложения от Developer"
+            "value" : "Още приложения от разработчика"
           }
         },
         "ca" : {
@@ -2742,7 +2742,7 @@
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Flere apps fra udvikler"
+            "value" : "Flere apps fra udvikleren"
           }
         },
         "de" : {
@@ -2754,7 +2754,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Περισσότερες εφαρμογές από Developer"
+            "value" : "Περισσότερες εφαρμογές από τον προγραμματιστή"
           }
         },
         "en-GB" : {
@@ -2772,13 +2772,13 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lisää sovelluksia kehittäjältä Developer"
+            "value" : "Lisää sovelluksia kehittäjältä"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Plus d'applications du développeur"
+            "value" : "Plus d’applications du développeur"
           }
         },
         "fr-CA" : {
@@ -2790,7 +2790,7 @@
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "יישומים נוספים ממפתחים"
+            "value" : "אפליקציות נוספות מהמפתח"
           }
         },
         "hi" : {
@@ -2826,7 +2826,7 @@
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "その他のアプリ 開発者"
+            "value" : "開発者のその他のアプリ"
           }
         },
         "kk" : {
@@ -2844,13 +2844,13 @@
         "ms" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lebih Banyak Apl daripada Pembangun"
+            "value" : "Lebih Banyak Apl daripada Pemaju"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Meer Apps van Ontwikkelaar"
+            "value" : "Meer apps van de ontwikkelaar"
           }
         },
         "pl" : {
@@ -2868,13 +2868,13 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mais aplicações do Programador"
+            "value" : "Mais aplicações do programador"
           }
         },
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mai multe aplicații de la Developer"
+            "value" : "Mai multe aplicații de la dezvoltator"
           }
         },
         "ru" : {
@@ -2898,13 +2898,13 @@
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "แอพเพิ่มเติมจาก Developer"
+            "value" : "แอปเพิ่มเติมจากผู้พัฒนา"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developer'dan diğer uygulamalar"
+            "value" : "Geliştiriciden diğer uygulamalar"
           }
         },
         "uk" : {
@@ -2916,7 +2916,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Xem thêm từ Nhà phát triển"
+            "value" : "Thêm ứng dụng từ nhà phát triển"
           }
         },
         "zh-Hans" : {
@@ -2928,13 +2928,13 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developer 的其他應用"
+            "value" : "開發者的其他應用程式"
           }
         },
         "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developer嘅其他應用"
+            "value" : "開發者的其他應用程式"
           }
         }
       }
@@ -2962,13 +2962,13 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zásady ochrany osobních údajů"
+            "value" : "Ochrana osobních údajů"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Politik for beskyttelse af personlige oplysninger"
+            "value" : "Anonymitetspolitik"
           }
         },
         "de" : {
@@ -3004,7 +3004,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Politique de confidentialité"
+            "value" : "Confidentialité"
           }
         },
         "fr-CA" : {
@@ -3028,13 +3028,13 @@
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Privatnosti"
+            "value" : "Pravila privatnosti"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adatvédelmi irányelvek"
+            "value" : "Adatvédelmi szabályzat"
           }
         },
         "id" : {
@@ -3064,7 +3064,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "개인정보 보호정책"
+            "value" : "개인정보 처리방침"
           }
         },
         "ms" : {
@@ -3082,7 +3082,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Polityka prywatności"
+            "value" : "Ochrana prywatności"
           }
         },
         "pt-BR" : {
@@ -3100,7 +3100,7 @@
         "ro" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Politica de confidențialitate"
+            "value" : "Politică de confidențialitate"
           }
         },
         "ru" : {
@@ -3112,7 +3112,7 @@
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zásady ochrany osobných údajov"
+            "value" : "Ochrana súkromia"
           }
         },
         "sv" : {
@@ -3142,7 +3142,7 @@
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chính sách bảo mật"
+            "value" : "Chính sách quyền riêng tư"
           }
         },
         "zh-Hans" : {
@@ -3154,13 +3154,13 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "隱私策略"
+            "value" : "隱私權政策"
           }
         },
         "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "私隱策略"
+            "value" : "私隱政策"
           }
         }
       }
@@ -3176,19 +3176,19 @@
         "bg" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Оценка на приложението"
+            "value" : "Оцени приложението"
           }
         },
         "ca" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Valora l'app"
+            "value" : "Valora l’app"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hodnocení aplikace"
+            "value" : "Ohodnotit aplikaci"
           }
         },
         "da" : {
@@ -3206,7 +3206,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Βαθμολογήστε την εφαρμογή"
+            "value" : "Βαθμολόγηση εφαρμογής"
           }
         },
         "en-GB" : {
@@ -3230,19 +3230,19 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Note l'application"
+            "value" : "Noter l’application"
           }
         },
         "fr-CA" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Évaluez l’application"
+            "value" : "Évaluer l’application"
           }
         },
         "he" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "דרג את האפליקציה"
+            "value" : "דירוג האפליקציה"
           }
         },
         "hi" : {
@@ -3254,13 +3254,13 @@
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ocijenite aplikaciju"
+            "value" : "Ocijeni aplikaciju"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Értékelje az alkalmazást"
+            "value" : "Alkalmazás értékelése"
           }
         },
         "id" : {
@@ -3272,7 +3272,7 @@
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Valuta l'applicazione"
+            "value" : "Valuta l’app"
           }
         },
         "ja" : {
@@ -3320,7 +3320,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avalia a aplicação"
+            "value" : "Avaliar a aplicação"
           }
         },
         "ro" : {
@@ -3332,13 +3332,13 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Оцените приложение"
+            "value" : "Оценить приложение"
           }
         },
         "sk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hodnotenie aplikácie"
+            "value" : "Ohodnotiť aplikáciu"
           }
         },
         "sv" : {
@@ -3356,13 +3356,13 @@
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uygulamayı Değerlendirin"
+            "value" : "Uygulamayı Değerlendir"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Оцініть додаток"
+            "value" : "Оцінити додаток"
           }
         },
         "vi" : {
@@ -3456,7 +3456,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Applications connexes que tu pourrais aimer"
+            "value" : "Applications connexes susceptibles de vous plaire"
           }
         },
         "fr-CA" : {
@@ -3510,7 +3510,7 @@
         "kk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ұнатуыңыз мүмкін қатысты бағдарламалар"
+            "value" : "Сізге ұнауы мүмкін қатысты бағдарламалар"
           }
         },
         "ko" : {
@@ -3540,13 +3540,13 @@
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplicativos relacionados que você pode gostar"
+            "value" : "Aplicativos relacionados de que você pode gostar"
           }
         },
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aplicações relacionadas de que poderás gostar"
+            "value" : "Aplicações relacionadas de que poderá gostar"
           }
         },
         "ro" : {
@@ -3558,7 +3558,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Похожие приложения, которые могут тебе понравиться"
+            "value" : "Похожие приложения, которые могут Вам понравиться"
           }
         },
         "sk" : {
@@ -3612,7 +3612,7 @@
         "zh-HK" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "你可能鍾意嘅相關應用"
+            "value" : "你可能喜歡的相關應用程式"
           }
         }
       }
@@ -3640,7 +3640,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sociální odkazy"
+            "value" : "Sociální sítě"
           }
         },
         "da" : {
@@ -3676,7 +3676,7 @@
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sosiaaliset linkit"
+            "value" : "Somelinkit"
           }
         },
         "fr" : {
@@ -3706,31 +3706,31 @@
         "hr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Društvene veze"
+            "value" : "Društveni linkovi"
           }
         },
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Társadalmi linkek"
+            "value" : "Közösségi oldalak hivatkozásai"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hubungan Sosial"
+            "value" : "Tautan Sosial"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Link sociali"
+            "value" : "Link social"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "ソーシャル・リンク"
+            "value" : "ソーシャルリンク"
           }
         },
         "kk" : {
@@ -3772,7 +3772,7 @@
         "pt-PT" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ligações sociais"
+            "value" : "Redes sociais"
           }
         },
         "ro" : {
@@ -3826,13 +3826,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "社会链接"
+            "value" : "社交链接"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "社交連結"
+            "value" : "社群連結"
           }
         },
         "zh-HK" : {
